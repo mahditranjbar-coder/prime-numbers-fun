@@ -1,0 +1,20 @@
+{
+  "start": 1000000,
+  "limit": 100000000,
+  "max_gap": 10000,
+  "block_ratio": 1.5,
+  "wheel_primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "null_simulations": 1,
+  "seed": 104729,
+  "fft_workers": -1,
+  "results_dir": "results"
+}

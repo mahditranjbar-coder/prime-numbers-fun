@@ -1,0 +1,16 @@
+[project]
+name = "prime-pattern-lab"
+version = "0.1.0"
+description = "Controlled computational experiments on residual prime-pair structure"
+requires-python = ">=3.11"
+dependencies = [
+  "matplotlib>=3.8",
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "scikit-learn>=1.5",
+  "scipy>=1.13",
+]
+
+[tool.ruff]
+line-length = 110
+

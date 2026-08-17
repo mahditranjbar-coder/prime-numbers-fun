@@ -1,0 +1,9 @@
+{
+  "python": "3.12.13",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "blocks": 12,
+  "offsets": 5000,
+  "total_elapsed_seconds": 33.82646361999991,
+  "results_directory": "results"
+}

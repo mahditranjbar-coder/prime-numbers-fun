@@ -1,0 +1,99 @@
+{
+  "aggregate": {
+    "aggregate_count_ratio": 0.9997736185162126,
+    "aggregate_psi_ratio": 0.9999733906839325,
+    "median_absolute_offset_psi_residual": 0.0004390225065696862,
+    "max_absolute_offset_psi_residual": 0.002561675367038996
+  },
+  "models": {
+    "train_blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "test_blocks": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "test_rows": 20000,
+    "zero_baseline_rmse": 0.002106255617852536,
+    "zero_baseline_mae": 0.0016192179521194656,
+    "ridge_rmse": 0.002132704269636622,
+    "ridge_mae": 0.0016431316478360898,
+    "boosted_tree_rmse": 0.0021209525736565595,
+    "boosted_tree_mae": 0.0016320121627967062,
+    "sparse_polynomial_alpha": 0.001,
+    "sparse_polynomial_validation_rmse": 0.0030060223560753087,
+    "sparse_polynomial_rmse": 0.0021099141309591273,
+    "sparse_polynomial_mae": 0.0016221120954698505,
+    "sparse_polynomial_nonzero_terms": {},
+    "ridge_coefficients": {
+      "inv_log_mid": -0.007355438773766531,
+      "inv_log_mid_sq": 0.00782422638933132,
+      "log_offset_over_log_mid": -7.0939554493570225e-06,
+      "log_singular_series": -0.00014611122995173944,
+      "omega": -0.000143184432818162,
+      "big_omega": -9.315281228831293e-05,
+      "log_largest_prime_factor": -7.757557018273599e-05,
+      "reciprocal_factor_sum": 0.0002829340999716662
+    }
+  },
+  "correlations": {
+    "singular_series": {
+      "spearman_rho": -0.01440189510961974,
+      "p_value": 0.3085990990980899
+    },
+    "omega": {
+      "spearman_rho": -0.02504625717644238,
+      "p_value": 0.076581856721037
+    },
+    "big_omega": {
+      "spearman_rho": -0.021022381602972318,
+      "p_value": 0.13719993815424278
+    },
+    "largest_prime_factor": {
+      "spearman_rho": 0.008308553350696845,
+      "p_value": 0.5569574628326318
+    },
+    "reciprocal_factor_sum": {
+      "spearman_rho": -0.01466875187506212,
+      "p_value": 0.2997200852425862
+    }
+  },
+  "pca": {
+    "explained_variance_ratio": [
+      0.33304048082733495,
+      0.20266171307905181,
+      0.13992064020120046,
+      0.10095407204526759,
+      0.06555868726155543,
+      0.04818335416358688,
+      0.035706824560695814,
+      0.0248710292063946
+    ],
+    "singular_values": [
+      0.6704501099088667,
+      0.5230025526396297,
+      0.43456910304065033,
+      0.369130451969451,
+      0.29746308535427546,
+      0.2550154356769264,
+      0.2195298439678555,
+      0.18321660550659824
+    ]
+  },
+  "spectral": {
+    "block_samples": 12,
+    "frequency_bins": 160,
+    "peak_angular_frequency_log_x": 1.451112003726099,
+    "peak_cycles_across_observed_span": 0.9999999999999999,
+    "peak_actual_to_null_power": 1.2964346142076757
+  }
+}
